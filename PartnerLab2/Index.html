@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Hello World</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <a href="../index.html">Back to Portfolio</a>
+
+   <h1 id="greeting">Hello User!</h1>
+   <p id="message" name="message">Welcome to our webpage!</p>
+
+ 
+   <p>Enter your name:</p>
+   <input type="text" name="enterName" id="enterName">
+
+   <p>Enter brief message:</p>
+   <input type="text" name="enterMessage" id="enterMessage">
+
+   <p>Choose a Color:</p>
+   <select name="colors" id="colorPick">
+       <option value="blue">Blue</option>
+       <option value="yellow">Yellow</option>
+       <option value="green">Green</option>
+       <option value="red">Red</option>
+   </select>
+
+   <br>
+   <button type="button" value="Submit" onclick="enterName()">Submit</button>
+
+   <!-- extra credit: to do list -->
+   <p>Add a To Do item:</p>
+   <input type="text" id="todoInput">
+   <button type="button" onclick="addTodo()">Add</button>
+
+   <ol id="todoList"></ol>
+
+   <script src="interact.js"></script>
+</body>
+</html>

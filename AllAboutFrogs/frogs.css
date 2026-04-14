@@ -1,0 +1,86 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:linear-gradient(rgb(96, 178, 123), rgb(245, 245, 124));
+}
+header {
+    background-color: rgb(131, 240, 180);
+    grid-area: header;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    border: solid green 2px;
+    transform: scale(1.05, 1.05);
+}
+h1, a{
+    font-family: cursive;
+    text-align: center;
+}
+p{
+    padding: 2px;
+    animation: changeColors 4s ease 1s 2 reverse;
+}
+@keyframes changeColors {
+  0%   { color:rgb(0, 162, 255); }
+  50%  { color:rgb(217, 0, 255); }
+  100% { color:rgb(158, 50, 221); }
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.wrapper > div {
+    border: solid rgb(227, 249, 204) 2px;
+    border-radius: 5px;
+    padding: 1em;
+    color: #055e0b;
+    background-color: rgba(223, 248, 185, 0.5);
+
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.header {
+    grid-column: 1 / 10;
+    grid-row: 1;
+}
+.sidebar {
+    grid-column: 1;
+    grid-row: 2 / 7;
+}
+.one {
+    grid-row: 2 / 4;
+    grid-column: 2 / 10;
+}
+.two {
+    grid-column: 2;
+    grid-row: 4 / 7;
+}
+.three {
+    grid-column: 3 / 8;
+    grid-row: 4 / 7;
+}
+.footer{
+    grid-column: 1 / 10;
+}
+#bullfrog, #frog{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    filter: brightness(1.5) contrast(0.9);
+}
+#redEye, #toad{
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+#blueDart{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(5deg);
+}

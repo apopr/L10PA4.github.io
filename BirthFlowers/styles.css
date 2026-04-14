@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(236, 209, 252);
+}
+h3{
+    color: blueviolet;
+}
+h1, h3{
+    font-family:cursive;
+}
+p, a{
+    font-family: 'Courier New', Courier, monospace;
+}

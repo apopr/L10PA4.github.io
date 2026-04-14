@@ -1,0 +1,141 @@
+h1,h2 {
+   font-family: "Segoe Script", cursive;
+   text-align: center;
+   border: 3px solid rgb(20, 71, 173);
+   background-color: bisque;
+   padding: 8px;
+}
+
+body {
+   background-color: rgb(228, 238, 246);
+}
+
+p, a{
+   font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+   text-align: center;
+}
+
+a {
+   color: black;
+}
+
+a:hover {
+   color: rgb(20, 71, 173);
+}
+
+.clothing-categories {
+   font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   border: 3px solid rgb(20, 71, 173);
+   background-color: bisque;
+   padding: 5px;
+   margin-bottom: 50px;
+}
+
+img {
+   padding: 2px;
+}
+
+.image-row {
+   display: flex;
+   width: 100%;
+}
+
+.image-row img {
+   width: 33.33%;
+   height: auto;
+}
+
+#WhiteShirtMen {
+   float: left;
+   border: 2px solid black;
+}
+
+h3 {
+   font-family: "Segoe Script", cursive;
+   text-align: center;
+   text-decoration: underline;
+   color: rgb(20, 71, 173);
+}
+
+#StripeMen {
+   float: right;
+   border: 2px solid black;
+}
+
+.Whiteshirtblock,
+.Stripeshirtblock {
+   clear: both;
+   margin-top: 30px;
+   overflow: auto;
+   border: 3px solid black;
+}
+
+#MaleJean {
+   float: right;
+   border: 2px solid black;
+}
+
+#MaleSweats {
+   float: left;
+   border: 2px solid black;
+}
+
+.Sweatsmaleblock {
+   clear: both;
+   margin-top: 30px;
+   overflow: auto;
+   border: 3px solid black;
+}
+
+.Malebluejeanblock {
+   clear: both;
+   margin-top: 30px;
+   overflow: auto;
+   border: 3px solid black;
+}
+
+.container img {
+   max-width: 100%;
+   height: auto;
+   width: 30%;
+   margin: auto;
+}
+
+#PinkFemale {
+   float: left;
+   border: 2px solid black;
+}
+
+#GrayFemale {
+   float: right;
+   border: 2px solid black;
+}
+
+.PinkFemaleblock,
+.GrayFemaleblock {
+   clear: both;
+   margin-top: 30px;
+   overflow: auto;
+   border: 3px solid black;
+}
+
+#FemaleTrousers {
+   float: left;
+   border: 2px solid black;
+}
+
+#FemaleJeans {
+   float: right;
+   border: 2px solid black;
+}
+
+.FemaleTrousersblock,
+.FemaleJeansblock {
+   clear: both;
+   margin-top: 30px;
+   overflow: auto;
+   border: 3px solid black;
+}
